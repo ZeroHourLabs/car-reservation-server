@@ -12,3 +12,8 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
+
+# ChromaDB 관련 파일들
+chroma_db/*.bin
+chroma_db/*.sqlite3
+chroma_db

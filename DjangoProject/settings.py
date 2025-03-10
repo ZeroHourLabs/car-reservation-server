@@ -31,6 +31,8 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
 
 OPENAI_API_KEY = env('OPENAI_API_KEY')
+# settings.py
+PDF_URL = os.path.join(BASE_DIR, 'media', 'pdf_files')  # PDF 파일들이 저장된 디렉토리 경로
 
 ALLOWED_HOSTS = []
 
